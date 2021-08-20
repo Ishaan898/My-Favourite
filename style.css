@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+
+}
+
+.profile {
+    width: 175px;
+    border-radius: 40%;
+    margin-bottom: 50px;
+
+
+}
+
+#welcome {
+    position: absolute;
+    overflow: inherit;
+    height: 800px;
+    color: dimgray;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(#05ffff 0%, #05ff8e 100%);
+    opacity: 0.83;
+    display: table;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    color: black
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background color: black;
+    margin: 8px auto;
+
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    background: white;
+    cursor: pointer;
+    font-family: 'Staatliches', cursive;
+    margin-top: 0px;
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 30px;
+
+
+
+
+}
+
+.links:hover {
+    background-color: cornflowerblue;
+    text-decoration: underline;
+
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: dodgerblue;
+    text-shadow: 2px 2px gainsboro;
+
+
+}
+
+.article:hover {
+    color: cyan;
+
+}
+
+#bio {
+    background-color: dodgerblue
+}
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: aqua !important;
+
+}
+
+#contact {
+    background-color: chartreuse;
+
+}
+
+#contact iframe {
+    width: 100%;
+
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    color: black;
+    text-shadow: none;
+
+}
